@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "书架",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "search": "/components/search/search"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#edeef0",
+    "backgroundColor": "#edeef0"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#FFF",
+    "color": "#757c86",
+    "selectedColor": "#479ef0",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "iconPath": "static/img/tabbar/find.png",
+        "selectedIconPath": "static/img/tabbar/find-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "iconPath": "static/img/tabbar/book.png",
+        "selectedIconPath": "static/img/tabbar/book-active.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "iconPath": "static/img/tabbar/news.png",
+        "selectedIconPath": "static/img/tabbar/news-active.png",
+        "text": "故事"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/me-active.png",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

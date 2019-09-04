@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "search": "/components/search/search"
+  }
+}

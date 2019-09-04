@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content {
+  text-align: center;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#edeef0), color-stop(10%, #ebecee), color-stop(50%, #e3e4e6), color-stop(80%, #e4e5e7), to(#eaebed));
+  background-image: -o-linear-gradient(top, #edeef0, #ebecee 10%, #e3e4e6 50%, #e4e5e7 80%, #eaebed 100%);
+  background-image: linear-gradient(to bottom, #edeef0, #ebecee 10%, #e3e4e6 50%, #e4e5e7 80%, #eaebed 100%);
+}
+.content .swiperCon {
+    padding: 32rpx 0;
+    height: calc(100% - 80rpx - 64rpx);
+}
+.content .swiperCon .uniSwiper {
+      height: 100%;
+}
+.content .swiperCon .uniSwiper .swiperItem {
+        border-left: 16rpx solid transparent;
+        border-right: 16rpx solid transparent;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item {
+          height: calc(100% - 100rpx);
+          border-radius: 15rpx;
+          background: #fff;
+          padding: 50rpx;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-title {
+            text-align: left;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-title .main-title {
+              font-size: 45rpx;
+              color: #212832;
+              font-weight: 600;
+              margin-bottom: 24rpx;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-title .sub-title {
+              font-size: 26rpx;
+              color: #afafaf;
+              font-weight: normal;
+              margin-bottom: 40rpx;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-row .flex-item {
+            width: 50%;
+            float: left;
+            text-align: center;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-row .flex-item .cover-pic {
+              display: block;
+              width: 170rpx;
+              height: 240rpx;
+              margin: 0 auto;
+              margin-bottom: 12rpx;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-row .flex-item .listen-cover-pic {
+              position: relative;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-row .flex-item .listen-cover-pic::after {
+                content: "";
+                position: absolute;
+                width: 60rpx;
+                height: 60rpx;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                border-radius: 30rpx;
+                background: rgba(0, 0, 0, 0.3) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAB2ElEQVRoQ+2a/U3DMBDF720GG8AG7QS0E9Bu0E5AuwFswAiwQdkAJjj0qkSqQGqk2veRxP63cuLfvfM7nxvIzAZmxisNeOqKN4WbwhOLQEvpiQn6D6eawqr6JCJfAF4zB60KsKouROSlAz0AWGaFrgW8EZHnC0iqvATwnQ3cCpicHyJynw3aEpjQVJjQhE8xrIF76EcA7xmIPYB7Tu7pQzS0JzBZdwDWkdDewGSlyusoM4sADnXwKGBCn0SEZubq4JHAIWUrGtjdwbMAE3wDYGvt4JmAzw5u3XhkAzZ38IzAPTRPZtUdPCuwmYNnBu6heSqrdgbPDtyb9grAvoaDjwWYrOyri1vMBnxL2qjq3zutWx5zbQ738a7GQ7Mr/CMi3L+zMC3C3tWuxVkV/hSRBwBsIauOjMCEpbImd9rZgI8A+C+G2cgEvAVAtzcdWYDdrnCjgU2c+FqKRALTnBa1y87QfogCNnXibAofu9OTSdnJpvAewGpoUZa/e6a0mxNHpzSdmMfE4l62hvLWCruXnaGgWAKHOXFESr91NTbEiT2ALz9bMm8AhtLWHJgvUFWWm9MsPkwribj33Cqm5b3okvc14JLojWFuU3gMKpWssSlcEr0xzJ2dwr9y4+o9VNvmTQAAAABJRU5ErkJggg==) no-repeat center;
+                background-size: 45rpx 45rpx;
+}
+.content .swiperCon .uniSwiper .swiperItem .swiper-item .item-row .flex-item .book-title {
+              display: inline-block;
+              font-size: 22rpx;
+              color: #212832;
+              height: 80rpx;
+}
+
