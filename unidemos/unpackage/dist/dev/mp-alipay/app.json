@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#edeef0",
+    "backgroundColor": "#edeef0"
+  },
+  "tabBar": {
+    "textColor": "#757c86",
+    "selectedColor": "#479ef0",
+    "backgroundColor": "#FFF",
+    "items": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "name": "发现",
+        "icon": "static/img/tabbar/find.png",
+        "activeIcon": "static/img/tabbar/find-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "name": "书架",
+        "icon": "static/img/tabbar/book.png",
+        "activeIcon": "static/img/tabbar/book-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "name": "故事",
+        "icon": "static/img/tabbar/news.png",
+        "activeIcon": "static/img/tabbar/news-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "name": "我",
+        "icon": "static/img/tabbar/me.png",
+        "activeIcon": "static/img/tabbar/me-active.png"
+      }
+    ]
+  }
+}

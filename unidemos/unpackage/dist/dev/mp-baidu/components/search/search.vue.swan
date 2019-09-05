@@ -1,0 +1,1 @@
+<template name="5047f806"><view class="_view searchCon {{ h[ 0 ].rcl }}"><input class="_input search" type="text" value="{{ h[ 1 ][ 'value' ] }}" placeholder="书城搜索" placeholder-style="color:#adb4be;"/><button class="_button searchBtn" hover-class="none">书城</button></view></template>

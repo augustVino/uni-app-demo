@@ -1,0 +1,1 @@
+<view class="searchCon"><input class="search" type="text" placeholder="书城搜索" placeholder-style="color:#adb4be;" value="{{value}}"/><block wx:if="{{showBtn}}"><button class="searchBtn" hover-class="none">书城</button></block></view>

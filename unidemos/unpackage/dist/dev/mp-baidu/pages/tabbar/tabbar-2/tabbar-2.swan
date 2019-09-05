@@ -1,0 +1,2 @@
+<import src="./tabbar-2.vue.swan" />
+    <template is="26995310" data="{{{ ...$root['0'], $root }}}"/>

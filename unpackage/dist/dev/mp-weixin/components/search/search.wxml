@@ -1,1 +1,0 @@
-<view class="searchCon"><input class="search" type="text" value="" placeholder="书城搜索" placeholder-style="color:#adb4be;"/><button class="searchBtn" hover-class="none">书城</button></view>

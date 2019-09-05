@@ -1,0 +1,1 @@
+<view class="content"><search class="fixedTop" vue-id="1" value="一禅小和尚: 你总说没事" showBtn="{{false}}" bind:__l="__l"></search><view class="mainCon"></view></view>

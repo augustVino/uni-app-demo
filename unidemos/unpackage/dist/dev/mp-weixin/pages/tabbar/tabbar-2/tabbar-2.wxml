@@ -1,0 +1,1 @@
+<view class="content"><search vue-id="1" value="搜索已购书籍" showBtn="{{true}}" bind:__l="__l"></search><view class="mainCon"><view class="box"><text class="tips">重拾阅读的习惯</text><text class="tips">为生活埋下微小的信仰</text><button class="btn" type="primary">去找书</button></view></view></view>
